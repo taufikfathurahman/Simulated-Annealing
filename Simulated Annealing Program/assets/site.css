@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+body {
+    display: flex;
+    font-family: Arial;
+    background-color: grey;
+}
+form {
+    margin: auto;
+}
+.form_hasil {
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 16px; 
+    border: none;
+    margin-top: 150px;
+}
+#form_title {
+    text-align: center;
+}
+#input_nm {
+    border: none;
+    border-bottom: 3px solid #ddd;
+    outline: none;
+    padding: 20px 2px 10px;
+    width: 350px;
+    font-size: 16px;
+}
+#input_nm:focus {
+    border-bottom: 3px solid #badc58;
+}
